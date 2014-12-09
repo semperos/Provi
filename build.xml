@@ -1,0 +1,40 @@
+<project name="com.semperos.provi build and test" default="all">
+    <property file="build.properties"/>
+
+    <path id="mps.ant.path">
+        <pathelement location="${mps.home}/lib/mps-backend.jar"/>
+        <pathelement location="${mps.home}/lib/jdom.jar"/>
+        <pathelement location="${mps.home}/lib/log4j.jar"/>
+        <pathelement location="${mps.home}/lib/mps-core.jar"/>
+    </path>
+
+    <taskdef resource="jetbrains/mps/build/ant/antlib.xml"
+        classpathref="mps.ant.path"/>
+
+    <jvmargs id="myargs">
+        <arg value="-ea"/>
+        <arg value="-Xss1024k"/>
+        <arg value="-Xmx1024m"/>
+        <arg value="-XX:MaxPermSize=92m"/>
+        <arg value="-XX:+HeapDumpOnOutOfMemoryError"/>
+    </jvmargs>
+
+    <!-- BEGIN Customizations -->
+
+    <!-- BEGIN Language Compilation -->
+
+    <property name="project.mpl"
+        value="languages/com.semperos.provi.ProviLanguage/com.semperos.provi.ProviLanguage.mpl"/>
+
+    <target name="build-languages-in-project">
+        <mps.generate>
+            <jvmargs refid="myargs"/>
+            <project file="${provi.home}/${project.mpl}"/>
+        </mps.generate>
+    </target>
+
+    <!-- END Language Compilation -->
+
+    <!-- END Customizations -->
+
+</project>

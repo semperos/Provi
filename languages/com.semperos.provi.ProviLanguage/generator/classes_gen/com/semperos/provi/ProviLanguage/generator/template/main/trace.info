@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="QueriesGenerated.java" startLine="12" startPosition="0" endLine="24" endPosition="0" unitName="com.semperos.provi.ProviLanguage.generator.template.main.QueriesGenerated" />
+  <root nodeRef="r:c474093b-624c-4976-8466-e4a52b55ce12(com.semperos.provi.ProviLanguage.generator.template.main@generator)/6997941039743739434">
+    <nodeInfo nodeId="6997941039743740188" fileName="QueriesGenerated.java" startLine="16" startPosition="112" endLine="17" endPosition="69" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <nodeInfo nodeId="6997941039744133286" fileName="QueriesGenerated.java" startLine="20" startPosition="108" endLine="21" endPosition="117" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+    <scopeInfo nodeId="6997941039743739515" fileName="QueriesGenerated.java" startLine="16" startPosition="112" endLine="17" endPosition="69" />
+    <scopeInfo nodeId="6997941039744133280" fileName="QueriesGenerated.java" startLine="20" startPosition="108" endLine="21" endPosition="117" />
+  </root>
+</debugInfo>
+
