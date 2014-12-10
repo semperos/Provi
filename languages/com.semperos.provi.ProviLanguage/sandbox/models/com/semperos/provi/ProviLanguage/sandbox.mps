@@ -3,5 +3,6 @@
   <persistence version="8" />
   <language namespace="e5cc6642-c8b4-497d-9933-5a87e202891d(com.semperos.provi.ProviLanguage)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
+  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
 </model>
 

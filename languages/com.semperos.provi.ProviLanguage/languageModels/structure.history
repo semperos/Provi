@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="q8gp" modelUID="r:2e4eafc5-0f9f-41f6-a538-0db4dc2c00de(com.semperos.provi.ProviLanguage.structure)" version="-1" />
+    </dependencies>
+    <rename id="q8gp.7876429446457829375" type="CHILD" from="actions" to="action" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="q8gp" modelUID="r:2e4eafc5-0f9f-41f6-a538-0db4dc2c00de(com.semperos.provi.ProviLanguage.structure)" version="0" />
+    </dependencies>
+    <rename id="q8gp.6997941039743645272" type="CONCEPT" from="BrowserSession" to="Session" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="q8gp" modelUID="r:2e4eafc5-0f9f-41f6-a538-0db4dc2c00de(com.semperos.provi.ProviLanguage.structure)" version="1" />
+    </dependencies>
+    <rename id="q8gp.6997941039743659187" type="CHILD" from="browser" to="driver" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="q8gp" modelUID="r:2e4eafc5-0f9f-41f6-a538-0db4dc2c00de(com.semperos.provi.ProviLanguage.structure)" version="2" />
+    </dependencies>
+    <rename id="q8gp.7876429446457829375" type="CHILD" from="action" to="actions" />
+  </StructureModification>
+</history>
+

@@ -22,7 +22,6 @@
     <stubModelEntry path="/Users/daniegregiore/MPSProjects/Provi/languages/lib/httpclient-4.3.4.jar" />
     <stubModelEntry path="/Users/daniegregiore/MPSProjects/Provi/languages/lib/httpcore-4.3.2.jar" />
     <stubModelEntry path="/Users/daniegregiore/MPSProjects/Provi/languages/lib/httpmime-4.3.3.jar" />
-    <stubModelEntry path="/Users/daniegregiore/MPSProjects/Provi/languages/lib/humane-test-output-0.6.0.jar" />
     <stubModelEntry path="/Users/daniegregiore/MPSProjects/Provi/languages/lib/jetty-http-8.1.15.v20140411.jar" />
     <stubModelEntry path="/Users/daniegregiore/MPSProjects/Provi/languages/lib/jetty-io-8.1.15.v20140411.jar" />
     <stubModelEntry path="/Users/daniegregiore/MPSProjects/Provi/languages/lib/jetty-util-8.1.15.v20140411.jar" />
@@ -54,6 +53,7 @@
   </dependencies>
   <usedLanguages>
     <usedLanguage>e5cc6642-c8b4-497d-9933-5a87e202891d(com.semperos.provi.ProviLanguage)</usedLanguage>
+    <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
     <usedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</usedLanguage>
   </usedLanguages>
 </solution>
